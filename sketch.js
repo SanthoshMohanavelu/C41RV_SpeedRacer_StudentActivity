@@ -5,7 +5,7 @@ var obstacle1Image, obstacle2Image;
 var database, gameState;
 var form, player, playerCount;
 var allPlayers, car1, car2, fuels, powerCoins, obstacles;
-var cars = [];
+var cars = []
 
 function preload() {
   backgroundImage = loadImage("./assets/background.png");
